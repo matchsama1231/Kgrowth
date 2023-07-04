@@ -1,0 +1,46 @@
+{
+  "project_info": {
+    "project_number": "720221805450",
+    "project_id": "k-growth-chat",
+    "storage_bucket": "k-growth-chat.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:720221805450:android:c38e349deece251272c673",
+        "android_client_info": {
+          "package_name": "com.match.kgrowth"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "720221805450-pp287o7rav1556u862kji3hli25pc5kj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC_xMyQV6u6azNe0I7XXuYn37hzy5ruMkE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "720221805450-pp287o7rav1556u862kji3hli25pc5kj.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "720221805450-qf598db4nnmdk3dqd42vqbeanjruat96.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.match.kgrowth"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
