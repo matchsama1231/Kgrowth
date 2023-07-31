@@ -3,6 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:kgrowth/components/text_field.dart';
 import 'package:kgrowth/screens/chat_screen.dart';
 import 'package:kgrowth/screens/register_screen.dart';
+import 'package:kgrowth/screens/reset_screen.dart';
 import 'package:kgrowth/utils/auth.dart';
 import 'package:kgrowth/utils/firestore.dart';
 
@@ -116,6 +117,29 @@ class _LoginPageState extends State<LoginPage> {
                           fontSize: 20,
                           color: Colors.blue,
                         ),),
+                      )
+                    ],
+                  ),
+                  const SizedBox(height: 25),
+                  Row(
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Text(
+                        'パスワードをお忘れの方は',
+                        style: TextStyle(color: Colors.grey[700],
+                            fontSize: 20),
+                      ),
+                      const SizedBox(width: 4),
+                      GestureDetector(
+                        onTap: (){
+                          Navigator.push(context, MaterialPageRoute(builder: (context)=> ForgotPasswordPage()));
+                        },
+                        child: const Text('コチラ',
+                          style: TextStyle(
+                            fontWeight: FontWeight.bold,
+                            fontSize: 20,
+                            color: Colors.blue,
+                          ),),
                       )
                     ],
                   )

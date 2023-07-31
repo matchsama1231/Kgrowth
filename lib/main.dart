@@ -1,7 +1,9 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:kgrowth/firebase_options.dart';
+import 'package:kgrowth/screens/chat_screen.dart';
 import 'package:kgrowth/screens/login_screen.dart';
 
 
@@ -26,3 +28,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+
+
+

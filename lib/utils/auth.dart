@@ -36,4 +36,5 @@ class Authentification {
   static Future<void> deleteAuth() async{
     await currentFirebaseUser!.delete();
   }
+
 }
